@@ -24,18 +24,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	int32 MyInt = 99;
-
-	UPROPERTY(EditAnywhere)
-	bool MyBool = true;
-
-	UPROPERTY(EditAnywhere)
-	float InputFloatA = 0.0;
-
-	UPROPERTY(EditAnywhere)
-	float InputFloatB = 0.0;
-
-	UPROPERTY(EditAnywhere)
-	float APlusBFloat = 0.0;
+	FVector MyVector = FVector(-14890.0, -2570.0, 4070.0);
 
 };
